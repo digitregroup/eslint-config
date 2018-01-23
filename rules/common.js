@@ -39,7 +39,6 @@ module.exports = {
     'no-empty-pattern': ['error'],
     'no-fallthrough': ['error'],
     'no-global-assign': ['error'],
-    'no-multi-spaces': ['error'],
     'no-multi-str': ['error'],
     'no-new': ['error'],
     'no-octal': ['error'],

@@ -1,0 +1,32 @@
+{
+  "name": "@digitregroup/eslint-config",
+  "version": "1.0.0",
+  "description": "DigitRE group's ESLint configuration for all javascript environment.",
+  "author": "DigitRE group",
+  "license": "MIT",
+  "keywords": [
+    "digitregroup",
+    "eslint",
+    "eslintplugin",
+    "lint",
+    "javascript",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/digitregroup/eslint-config"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/digitregroup/eslint-config/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "check-version": "git-npm-version-checker -v"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "git-npm-version-checker": "^1.1.0"
+  }
+}

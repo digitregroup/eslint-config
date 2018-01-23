@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@digitregroup/eslint-config/rules/node'
+    './node.js'
   ],
   rules: {
     // General rules

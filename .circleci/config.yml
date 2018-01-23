@@ -89,6 +89,15 @@ jobs:
       - *save_npm_cache
       - *save_workspace
 
+  npm_lint:
+    <<: *node_config
+    steps:
+      - *restore_workspace
+
+      - run:
+          name: Lint EsLint config
+          command: yarn lint
+
   check_npm_package_version:
     <<: *node_config
     steps:
@@ -114,7 +123,12 @@ workflows:
   build_and_test:
     jobs:
       - install_dependencies:
-          <<: *filter_only_tags_releases_hotfixes
+          <<: *filter_all
+
+      - npm_lint:
+          <<: *filter_all
+          requires:
+            - install_dependencies
 
       - check_npm_package_version:
           <<: *filter_only_tags_releases_hotfixes
@@ -123,5 +137,6 @@ workflows:
 
       - publish_package:
           requires:
+            - npm_lint
             - check_npm_package_version
           <<: *filter_only_tags

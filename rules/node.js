@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     'mocha': true,
-    'node': true
+    'node': true,
   },
   rules: {
     // General rules
@@ -14,5 +14,5 @@ module.exports = {
     'no-mixed-requires': ['error'],
     'no-new-require': ['error'],
     'no-path-concat': ['error'],
-  }
+  },
 };

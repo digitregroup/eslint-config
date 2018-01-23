@@ -49,9 +49,6 @@ module.exports = {
     'no-self-assign': ['error'],
     'no-unused-labels': ['error'],
 
-    // Strict mode
-    'strict': ['error', 'global'],
-
     // Variables
     'no-delete-var': ['error'],
     'no-undef': ['error'],
@@ -63,12 +60,11 @@ module.exports = {
     'block-spacing': ['error'],
     'brace-style': ['error', 'allman', { allowSingleLine: true }],
     'capitalized-comments': ['error', 'always'],
-    'comma-dangle': ['error', 'always'],
     'comma-spacing': ['error', { before: false, after: true }],
     'indent': ['error', 2],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }], // to edit
     'keyword-spacing': ['error'],
-    'max-len': ['error', 80],
+    'max-len': ['error', 120],
     'max-nested-callbacks': ['error', 10],
     'max-params': ['error', 10],
     'new-cap': ['error', { newIsCap: true }],

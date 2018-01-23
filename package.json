@@ -21,12 +21,15 @@
   },
   "main": "index.js",
   "scripts": {
-    "check-version": "git-npm-version-checker -v"
+    "check-version": "git-npm-version-checker -v",
+    "lint": "eslint ."
   },
   "peerDependencies": {
     "eslint": ">= 3"
   },
   "devDependencies": {
+    "@digitregroup/eslint-config": "^1.0.0",
+    "eslint": "^4.16.0",
     "git-npm-version-checker": "^1.1.0"
   }
 }

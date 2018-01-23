@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "./rules/common.js",
+    "./rules/lambda.js",
+    "./rules/es6.js"
+  ],
+  "rules": {
+    "capitalized-comments": 0
+  }
+}

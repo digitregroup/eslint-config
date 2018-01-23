@@ -114,7 +114,7 @@ workflows:
   build_and_test:
     jobs:
       - install_dependencies:
-          <<: *filter_all
+          <<: *filter_only_tags_releases_hotfixes
 
       - check_npm_package_version:
           <<: *filter_only_tags_releases_hotfixes
@@ -124,5 +124,4 @@ workflows:
       - publish_package:
           requires:
             - check_npm_package_version
-            - unit_tests
           <<: *filter_only_tags

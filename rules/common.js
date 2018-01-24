@@ -58,7 +58,6 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error'],
     'brace-style': ['error', 'allman', { allowSingleLine: true }],
-    'capitalized-comments': ['error', 'always'],
     'comma-spacing': ['error', { before: false, after: true }],
     'indent': ['error', 2],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }], // to edit

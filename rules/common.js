@@ -57,7 +57,6 @@ module.exports = {
     // Stylistic issues
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error'],
-    'brace-style': ['error', 'allman', { allowSingleLine: true }],
     'comma-spacing': ['error', { before: false, after: true }],
     'indent': ['error', 2],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }], // to edit

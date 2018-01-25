@@ -123,10 +123,10 @@ workflows:
   build_and_test:
     jobs:
       - install_dependencies:
-          <<: *filter_all
+          <<: *filter_only_tags_releases_hotfixes
 
       - npm_lint:
-          <<: *filter_all
+          <<: *filter_only_tags_releases_hotfixes
           requires:
             - install_dependencies
 

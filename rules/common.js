@@ -68,7 +68,6 @@ module.exports = {
     'newline-after-var': ['error', 'always'],
     'newline-before-return': ['error'],
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
-    'no-trailing-spaces': ['error'],
     'quotes': ['error', 'single'],
     'semi': ['error', 'always'],
     'space-before-function-paren': ['error', 'never'],

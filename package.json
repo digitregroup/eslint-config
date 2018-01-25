@@ -1,6 +1,6 @@
 {
   "name": "@digitregroup/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "DigitRE group's ESLint configuration for all javascript environment.",
   "author": "DigitRE group",
   "license": "MIT",
@@ -28,7 +28,6 @@
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "@digitregroup/eslint-config": "^1.0.0",
     "eslint": "^4.16.0",
     "git-npm-version-checker": "^1.1.0"
   }

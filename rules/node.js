@@ -15,6 +15,5 @@ module.exports = {
     'no-new-require': ['error'],
     'no-path-concat': ['error'],
     'allow-parens': ['as-needed'],
-    "key-spacing":  ["error", {"align": "value"}]
   },
 };

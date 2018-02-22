@@ -59,7 +59,6 @@ module.exports = {
     'block-spacing': ['error'],
     'comma-spacing': ['error', { before: false, after: true }],
     'indent': ['error', 2, { 'SwitchCase': 1 }],
-    'key-spacing': ['error', { beforeColon: false, afterColon: true }], // to edit
     'keyword-spacing': ['error'],
     'max-len': ['error', 120],
     'max-nested-callbacks': ['error', 10],

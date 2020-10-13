@@ -14,6 +14,7 @@ The ESLint rules are strucured by development environment, the default configura
 | node | It stands for the configuration related to the server development. It can contains environment information as node, mocha, jest and many others but also specific rules that applies to the node.js runtine. |
 | es6 | It contains ES6 rules and sets the environment to ECMAScript 6. |
 | lambda | It stands for the configuration related to a node 4.3 environment on Amazon AWS and specific rules. |
+| prettier | It stand for the configuration related to prettier usage, disabling conflicting rules. ([Documentation](https://github.com/prettier/eslint-config-prettier)) |
 
 The details of the rules defined can be found on the [ESLint website](http://eslint.org/docs/rules/).
 
@@ -23,11 +24,11 @@ The details of the rules defined can be found on the [ESLint website](http://esl
 First, install developement dependencies using npm.
 
 ```shell
-npm install --save-dev eslint @digitregroup/eslint-config
+npm install --save-dev eslint eslint-config-prettier @digitregroup/eslint-config
 ```
 or
 ```shell
-yarn add -D eslint @digitregroup/eslint-config
+yarn add -D eslint eslint-config-prettier @digitregroup/eslint-config
 ```
 ## Usage
 
@@ -38,7 +39,8 @@ Once ESLint dependencies installed, simply extend the rules you need. For exampl
   "extends": [
     "@digitregroup/eslint-config",
     "@digitregroup/eslint-config/rules/es6",
-    "@digitregroup/eslint-config/rules/node"
+    "@digitregroup/eslint-config/rules/node",
+    "@digitregroup/eslint-config/rules/prettier"
   ]
 }
 ```
@@ -50,7 +52,8 @@ Or create a dedicated "".eslintrc.json" file to store all the eslint configurati
   "extends": [
     "@digitregroup/eslint-config",
     "@digitregroup/eslint-config/rules/browser",
-    "@digitregroup/eslint-config/rules/es6"
+    "@digitregroup/eslint-config/rules/es6",
+    "@digitregroup/eslint-config/rules/prettier"
   ]
 }
 ```

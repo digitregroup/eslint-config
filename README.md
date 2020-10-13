@@ -14,6 +14,7 @@ The ESLint rules are strucured by development environment, the default configura
 | node | It stands for the configuration related to the server development. It can contains environment information as node, mocha, jest and many others but also specific rules that applies to the node.js runtine. |
 | es6 | It contains ES6 rules and sets the environment to ECMAScript 6. |
 | lambda | It stands for the configuration related to a node 4.3 environment on Amazon AWS and specific rules. |
+| prettier | It stand for the configuration related to prettier usage, disabling conflicting rules. ([Documentation](https://github.com/prettier/eslint-config-prettier)) |
 
 The details of the rules defined can be found on the [ESLint website](http://eslint.org/docs/rules/).
 

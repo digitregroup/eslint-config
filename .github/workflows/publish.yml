@@ -18,9 +18,9 @@ jobs:
           node-version: 12.x
           registry-url: "https://registry.npmjs.org"
       - name: Install Node Dependencies
-        uses: yarn install
+        run: yarn install
       - name: Check package version
-        uses: yarn check-version
+        run: yarn check-version
       - name: Publish to NPM
         run: npm publish --access public
         env:

@@ -1,7 +1,7 @@
 # DigitRE group's ESLint configuration for all javascript environment.
 
 [![NPM Badge](https://img.shields.io/npm/v/@digitregroup/eslint-config.svg)](https://www.npmjs.com/package/@digitregroup/eslint-config)
-[![CircleCI](https://circleci.com/bb/digitregroup/eslint-config.svg?style=shield)](https://circleci.com/bb/digitregroup/eslint-config)
+[![Publish Actions Status](https://github.com/digitregroup/eslint-config/workflows/Publish/badge.svg)](https://github.com/digitregroupe/eslint-config/actions)
 
 The ESLint rules are strucured by development environment, the default configuration entry point extends what we call "common" rules, that's the rules that can be applied in any javascript environment (browser, server, etc). Additionally, we have a bunch of specific rules by development environment. You will find rules for the browser, node but also for es6, Amazon Lambda service and many others in the future.
 

@@ -14,6 +14,6 @@ module.exports = {
     'no-mixed-requires': ['error'],
     'no-new-require': ['error'],
     'no-path-concat': ['error'],
-    'allow-parens': ['as-needed'],
+    'allow-parens': ['error', 'as-needed'],
   },
 };

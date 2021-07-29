@@ -1,6 +1,6 @@
 {
   "name": "@digitregroup/eslint-config",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "DigitRE group's ESLint configuration for all javascript environment.",
   "author": "DigitRE group",
   "license": "MIT",

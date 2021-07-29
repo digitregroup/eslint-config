@@ -14,6 +14,5 @@ module.exports = {
     'no-var': ['error'],
     'prefer-const': ['error'],
     'require-yield': ['error'],
-    'allow-parens': ['as-needed'],
   },
 };

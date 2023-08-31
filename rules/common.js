@@ -64,7 +64,7 @@ module.exports = {
     'max-nested-callbacks': ['error', 10],
     'max-params': ['error', 10],
     'new-cap': ['error', { newIsCap: true }],
-    'newline-before-return': ['error'],
+    'newline-before-return': ['off'],
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
     'quotes': ['error', 'single'],
     'semi': ['error', 'always'],
